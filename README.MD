@@ -1,11 +1,25 @@
-npm run build
+# aws-express-node-ts-quickstart
 
+This project provides a quickstart setup for Serverless projects which can also be run locally for quicker iteration/development.
 
-npm run deploy
+  - Builds from Typescript.
+  - Express server runs on port 3000
+  - Requires: Node 7.7+, NPM: 4.1+
 
+### build
+Build the source from TypeScript to JavaScript:
+```sh
+$ npm run build
+```
 
-npm run start-dev
+### run locally
+Run your functions locally as a REST API:
+```sh
+$ npm run start-dev
+```
 
-
-'concurently' is not recognized as an internal or external command, operable program or batch file:
-please run: npm install -g concurrently
+### deploy to aws lambda
+deploy the built code to AWS Lambda using Serverless
+```sh
+$ npm run deploy
+```
