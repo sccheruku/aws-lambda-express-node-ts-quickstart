@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start-dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 verbose run-script [ 'prestart-dev', 'start-dev', 'poststart-dev' ]
+5 info lifecycle aws-express-node-ts-quickstart@0.0.1~prestart-dev: aws-express-node-ts-quickstart@0.0.1
+6 silly lifecycle aws-express-node-ts-quickstart@0.0.1~prestart-dev: no script for prestart-dev, continuing
+7 info lifecycle aws-express-node-ts-quickstart@0.0.1~start-dev: aws-express-node-ts-quickstart@0.0.1
+8 verbose lifecycle aws-express-node-ts-quickstart@0.0.1~start-dev: unsafe-perm in lifecycle true
+9 verbose lifecycle aws-express-node-ts-quickstart@0.0.1~start-dev: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Chaitanya\Documents\projects\aws\aws-express-node-ts-quickstart\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GtkSharp\2.12\bin;E:\Program Files\MongoDB\Server\3.4\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\PuTTY\;C:\Users\Chaitanya\Anaconda2;C:\Users\Chaitanya\Anaconda2\Scripts;C:\Users\Chaitanya\Anaconda2\Library\bin;C:\Users\Chaitanya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Chaitanya\AppData\Roaming\npm;
+10 verbose lifecycle aws-express-node-ts-quickstart@0.0.1~start-dev: CWD: C:\Users\Chaitanya\Documents\projects\aws\aws-express-node-ts-quickstart
+11 silly lifecycle aws-express-node-ts-quickstart@0.0.1~start-dev: Args: [ '/d /s /c',
+11 silly lifecycle   'concurrently "nodemon dist/local/index.js" "tsc -w"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1029:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd C:\Users\Chaitanya\Documents\projects\aws\aws-express-node-ts-quickstart
+14 error Windows_NT 10.0.15063
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "start-dev"
+16 error node v7.7.1
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

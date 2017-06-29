@@ -1,0 +1,37 @@
+{
+  "name": "aws-express-node-ts-quickstart",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "npm run build & serverless deploy -v",
+    "start-dev": "concurrently \"nodemon dist/local/index.js\" \"tsc -w\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda": "0.1.2",
+    "http-status-codes": "1.1.6",
+    "rxjs": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.11",
+    "typescript": "2.2.1",
+    "@types/node": "7.0.31",
+    "@types/http-status-codes": "1.0.29",
+
+    "body-parser": "1.17.0",
+    "@types/body-parser": "0.0.34",
+    "morgan": "1.8.1",
+    "@types/morgan": "1.7.32",
+    "express": "4.15.0",
+    "@types/express": "4.0.35",
+    "debug": "2.6.1",
+    "@types/debug": "0.0.29",
+    "concurrently": "3.4.0", 
+    "nodemon": "1.11.0",
+    "cors": "2.8.3",
+    "@types/cors": "2.8.1"
+  },
+  "description": ""
+}
