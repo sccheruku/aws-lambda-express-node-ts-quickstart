@@ -1,4 +1,4 @@
-# aws-express-node-ts-quickstart
+# aws-lambda-express-node-ts-quickstart
 
 This project provides a quickstart setup for Serverless projects which can also be run locally for quicker iteration/development.
 
